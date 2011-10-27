@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+}
+#content {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	padding: 20px;
+	background-color: rgba(128, 64, 0, 0.1);
+	z-index: 2;
+}
+#particle-container {
+	position: fixed;
+	left: 50px;
+	top: 50px;
+	right: 50px;
+	bottom: 50px;
+	z-index: 1;
+	background-color: #f3f3f3;
+}
+.particle {
+	overflow: hidden;
+	width: 3px;
+	height: 3px;
+	text-indent: -1000px;
+	background-color: brown;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index: 1;
+}
